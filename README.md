@@ -28,7 +28,11 @@ LeetConnect has had a tendency to not close the Chrome WebDrivers all too well d
 
  If the server terminates unexpectedly, just check the task manager for ay WebDrivers that may still be running and kill the processes.
  
-  Not a major problem if you don't, but it won't really be helpful to leave them running if your computer is already not very performant.
+ Not a major problem if you don't, but it won't really be helpful to leave them running if your computer is already not very performant.
+
+Additionally...
+
+### DO NOT SHARE THE SAVED DIRECTORY. YOUR COOKIES ARE VERY MUCH STORED IN THERE, DO NOT SHARE YOUR COOKIES. YOUR COOKIES SHOULD NOT BE SHARED. IT IS NOT A GOOD IDEA. DON'T DO IT.
 
 ---
 
