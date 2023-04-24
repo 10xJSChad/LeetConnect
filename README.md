@@ -54,7 +54,7 @@ Run the `leetconnect.py` script with the appropriate command-line arguments to p
 
 Example usage:
 ```
-starts the cookie setup process for the target platform
+start the cookie setup process for the target platform
 leetconnect.py --setup codewars
 
 open a server with Codewars as the target platform on the default port
