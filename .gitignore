@@ -1,0 +1,5 @@
+/.vscode
+/__pycache__
+/core/__pycache__
+/saved/cookies_stored.pickle
+/saved/session.pickle
