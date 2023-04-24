@@ -1,8 +1,8 @@
-import session_handler
-import interaction_handler
-from log_handler import *
+import core.session_handler as session_handler
+import core.interaction_handler as interaction_handler
+from core.log_handler import *
 from argparse import ArgumentParser
-from classes import WebsiteDefinition
+from core.classes import WebsiteDefinition
 from xmlrpc.server import SimpleXMLRPCServer
 
 
@@ -45,5 +45,6 @@ if __name__ == "__main__":
     write_to_log(SERVER_LOG_PATH + SERVER_LOG_FILENAME, SERVER_INITIALIZE)
     try:
         main()
-    except:
+    except Exception as E:
         write_to_log(SERVER_LOG_PATH + SERVER_LOG_FILENAME, SERVER_EXCEPTION)
+        raise E
